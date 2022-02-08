@@ -82,6 +82,7 @@ public class Job {
 
     @Override
     public int hashCode() {
+        System.out.println("hello");
         return Objects.hash(getId());
     }
 
